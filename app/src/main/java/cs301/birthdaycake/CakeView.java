@@ -34,6 +34,7 @@ public class CakeView extends SurfaceView {
     public static final float outerFlameRadius = 30.0f;
     public static final float innerFlameRadius = 15.0f;
 
+    
 
 
     /**
@@ -122,6 +123,8 @@ public class CakeView extends SurfaceView {
         //Now a candle in the center
         drawCandle(canvas, cakeLeft + cakeWidth/2 - candleWidth/2, cakeTop);
 
+        //Candle 2
+        drawCandle(canvas, cakeLeft + cakeWidth/3 - candleWidth/3, cakeTop);
     }//onDraw
 
 }//class CakeView
